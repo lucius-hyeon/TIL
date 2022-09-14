@@ -1,0 +1,32 @@
+<aside>
+💡 git 강의 3주차
+
+</aside>
+
+- pull request
+    - 내 작업내역(branch)을 바로 merge 하지 않고,  merge 해달라고 요청을 먼저 보내는 것
+- fork
+    - 원본 소스코드를 복사해서 새로운 독립적인 소프트웨어로 개발하는 것
+    - merge 할 권한이 없어 PR merge를 기다려야 한다
+- commit 되돌리기
+    - amend - 최신의 commit을 수정
+    - revert(리버트) -  어떠한 내용을 될돌렷는지 새로운 commit 을 남김
+    - reset(리셋) - commit 내용을 완전히 리셋
+    - stash (스태시) - 변경사항을 임시적으로 보관
+    
+- sourcetree 에서 강제 push 하기( 협업시에 사용 권장 x)
+    - 도구 → 옵션 → Git → 강제 푸시 가능 클릭
+- 코드 리뷰
+    - PR 한 내역을 리뷰하면서 수정하는 단계(최종 Merge를 하기 전)
+    - 코드의 품질을 높일 수 있다
+    - 내가 찾지 못한 버그들을 빠르게 발견할 수 있다
+    - 서로 지식을 나누며, 더 좋은 방법으로 문제 해결 가능
+- gitignore
+    - 보안상 공유하면 안되는 내용(비밀번호, API key 등), 나만의 설정파일 등 공유하지 않아야 할 파일들을 commit 할 때 무시할 수 있는 설정
+    - **gitignore 검색 사이트**
+        - https://[gitignore.io](http://gitignore.io/)
+- README
+    - 프로젝트에 관한 안내글
+    - MarkDown  문법 사용
+    - README 양식
+        - https://github.com/ohahohah/readme-template
